@@ -1,0 +1,6 @@
+CompileFlags:
+  Add: [-D_X86INTRIN_H_INCLUDED, -DMIS_CLANG_TIDY, -fgnuc-version=4.9.2, -Wall, -Wextra]
+  CompilationDatabase: build
+Diagnostics:
+  ClangTidy:
+    Remove: [cppcoreguidelines-owning-memory]
